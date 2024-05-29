@@ -8,6 +8,10 @@ public class Deck {
 
     private List<Card> cards;
 
+    public List<Card> cards() {
+        return cards;
+    }
+
     public Deck() {
         fillDeckWithCards();
     }
